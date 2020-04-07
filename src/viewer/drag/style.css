@@ -1,0 +1,34 @@
+.drag-viewer{
+  width: 100vw;
+  height: 100vh;
+  background-color: darksalmon
+}
+
+.drag-viewer .draggable{
+	background-image: url('../../static/img/drag.jpeg');
+	position: relative;
+	height: 150px;
+	width: 150px;
+	top: 5px;
+	left: 5px;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+.drag-viewer .droppable{
+	display: inline-block;
+	height: 160px;
+	width: 160px;
+	margin: 10px;
+	border: 3px salmon solid;
+	background-color: #fff;
+}
+
+.drag-viewer .dragging{
+	border: 4px yellow solid;
+}
+
+.drag-viewer .drag-over{
+	background-color: #f4f4f4;
+	border-style: dashed;
+}
